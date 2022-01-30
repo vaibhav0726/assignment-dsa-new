@@ -7,6 +7,7 @@ public class Number_of_digits {
     public static int find(int n){
         if(n/10==0){
             return 1;
+            
         }
         return 1+find(n/10);
 
